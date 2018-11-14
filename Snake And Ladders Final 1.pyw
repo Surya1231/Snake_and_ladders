@@ -352,10 +352,13 @@ def getdice():
             q2.undraw()
             return dice()
         elif 20<=p.getX()<=24 and 29<=p.getY()<=32:
-            cust.draw(win)
-            e1.draw(win)
-            e2.draw(win)
-            s2.draw(win)
+            try:
+                cust.draw(win)
+                e1.draw(win)
+                e2.draw(win)
+                s2.draw(win)
+            except:
+                pass
         elif 23<=p.getX()<=24 and 24<=p.getY()<=26:
             try:
                 ga=int(e1.getText())
