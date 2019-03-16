@@ -7,7 +7,9 @@ Requirements:-
 
 Features:-
 		Simple Gui;
+		
 		MultiModes;
+		
 		Random Boards (Everytime New Board);
 		Create Your Own Board ;
 		Boost Modes;
